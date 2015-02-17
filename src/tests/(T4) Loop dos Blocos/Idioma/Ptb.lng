@@ -1,0 +1,35 @@
+*Variaveis*
+cmdNovoJogoTEXTO0=Iniciar
+cmdNovoJogoTEXTO1=Pausar
+cmdNovoJogoTEXTO2=Continuar
+*frmJogo*
+mnuJogo=Jogo
+mnuNovoJogo=Novo Jogo
+mnuSair=Sair
+mnuOpcoes=Opções
+mnuMusica=Música
+mnuSons=Sons
+mnuEstiloTexto=Estilo do Bloco
+mnuEst0=Clássico
+mnuEst1=Novo
+mnuNivelTexto=Nível
+mnuNivel0=Nível 0
+mnuNivel1=Nível 1
+mnuNivel2=Nível 2
+mnuNivel3=Nível 3
+mnuNivel4=Nível 4
+mnuNivel5=Nível 5
+mnuNivel6=Nível 6
+mnuNivel7=Nível 7
+mnuNivel8=Nível 8
+mnuNivel9=Nível 9
+mnuIdiomaTexto=Idiomas
+mnuAjuda=Ajuda
+mnuConteudo=Conteúdo
+mnuSobre=Sobre
+lblTXTProx=Próximo Bloco
+lblTXTPontos=Pontuação
+lblTXTNivel=Nível
+*frmSobre*
+frmSobre=Sobre Down Blocks
+lblTeste=Testando

@@ -1,0 +1,5 @@
+frmJogo = 0, 0, 0, 0, C, 22, 22, 397, 368, C
+frmSobre = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+modFuncoes = 44, 44, 419, 390, Z
+frmSplash = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmSalvarConfig = 0, 0, 0, 0, C, 22, 22, 397, 368, C

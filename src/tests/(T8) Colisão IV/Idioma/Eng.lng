@@ -1,0 +1,36 @@
+*Variaveis*
+cmdNovoJogoTEXTO0=Start
+cmdNovoJogoTEXTO1=Pause
+cmdNovoJogoTEXTO2=Continue
+*frmJogo*
+mnuJogo=Game
+mnuNovoJogo=New Game
+mnuFinalizar=End Game
+mnuSair=Quit
+mnuOpcoes=Options
+mnuMusica=Music
+mnuSons=Sounds
+mnuEstiloTexto=Style of Blocks
+mnuEst0=Classic
+mnuEst1=New
+mnuNivelTexto=Level
+mnuNivel0=Level 0
+mnuNivel1=Level 1
+mnuNivel2=Level 2
+mnuNivel3=Level 3
+mnuNivel4=Level 4
+mnuNivel5=Level 5
+mnuNivel6=Level 6
+mnuNivel7=Level 7
+mnuNivel8=Level 8
+mnuNivel9=Level 9
+mnuIdiomaTexto=Languages
+mnuAjuda=Help
+mnuConteudo=Contents
+mnuSobre=About
+lblTXTProx=Next Block
+lblTXTPontos=Score
+lblTXTNivel=Level
+*frmSobre*
+frmSobre=About Down Blocks
+lblTeste=This is only a test

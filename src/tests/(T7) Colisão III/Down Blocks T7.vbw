@@ -1,0 +1,4 @@
+frmJogo = 44, 44, 424, 390, Z, 22, 22, 402, 368, C
+frmSobre = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+modFuncoes = 0, 0, 0, 0, C
+frmSplash = 0, 0, 0, 0, C, 0, 0, 0, 0, C

@@ -1,0 +1,48 @@
+*Variaveis*
+cmdNovoJogoTEXTO0=Iniciar
+cmdNovoJogoTEXTO1=Pausar
+cmdNovoJogoTEXTO2=Continuar
+MsgBoxGravarRecorde=O caracter '%' não é permitido. Digite um nome válido.
+*frmJogo*
+mnuJogo=Jogo
+mnuNovoJogo=Novo Jogo
+mnuFinalizar=Finalizar Jogo
+mnuSair=Sair
+mnuOpcoes=Opções
+mnuMusica=Música
+mnuSons=Sons
+mnuEstiloTexto=Estilo do Bloco
+mnuEst0=Clássico
+mnuEst1=Novo
+mnuNivelTexto=Nível de Início
+mnuNivel0=Nível 0
+mnuNivel1=Nível 1
+mnuNivel2=Nível 2
+mnuNivel3=Nível 3
+mnuNivel4=Nível 4
+mnuNivel5=Nível 5
+mnuNivel6=Nível 6
+mnuNivel7=Nível 7
+mnuNivel8=Nível 8
+mnuNivel9=Nível 9
+mnuIdiomaTexto=Idiomas
+mnuRecordes=Ver Recordes
+mnuAjuda=Ajuda
+mnuConteudo=Conteúdo
+mnuSobre=Sobre
+lblTXTProx=Próximo Bloco
+lblTXTPontos=Pontuação
+lblTXTNivel=Nível
+lblTXTRecorde=Recorde
+lblTXTRecordes=Recordes
+lblTXTNovoRecorde=Você obteve um Novo recorde!
+lblTXTNovoRecordeNome=Seu Nome:
+cmdFecharRecordes=Fechar
+*frmSobre*
+frmSobre=Sobre Down Blocks
+lblTeste=Testando
+*frmSalvarConfig*
+lblTexto=Deseja salvar suas configurações?
+cmdSim=Sim
+cmdNao=Não
+chkNao=Não perguntar novamente

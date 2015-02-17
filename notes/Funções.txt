@@ -1,0 +1,166 @@
+FUNÇÕES DO JOGO DOWN BLOCKS
+
+
+CarregarImageList(Endereco As String)
+  '============================================================
+  ' Esta função carrega as imagens utilizadas nos blocos para
+  'um ImageList e, caso já haja dados no ImageList, deleta-os
+  'antes de inserir as novas imagens
+  '============================================================
+    
+
+
+
+ExibirValJogo()
+  '=======================================================================
+  '  Esta Função exibe o conteúdo da variável "Jogo" em "txtDebug" (que
+  'está em "frmJogo"
+  '=======================================================================
+
+
+
+
+GerarBlocos(Container As String, TipoBloco As Integer, EstiloBloco As Integer)
+  '=============================================================
+  ' Esta função gera os blocos aleatórios que serão utilizados
+  'durante o Jogo
+  ' Há 5 tipos de Blocos que podem ser gerados, com 7 cores
+  'distintas para a formação destes (asteriscos representam os
+  'blocos):
+
+  '   - ****; representado pelo número "0"
+
+  '   - ***; representado pelo número "1"
+
+  '      *
+  '   - ***; representado pelo número "2"
+
+  '       *
+  '   - ***; representado pelo número "3"
+
+  '      **
+  '   - ** ; representado pelo número "4"
+
+  '     **
+  '   - **; representado pelo número "5"
+
+  '
+  ' As variáveis da função indicam:
+  '   - Container: indica a PictureBox que conterá os Blocos
+  '             ("pctJogo" ou "pctProx");
+  '   - TipoBloco: indica o Tipo do Bloco (é um número aleatório
+  '             gerado através de "Random(4)"
+  '   - EstiloBloco: indica o Estilo do Bloco (uma imagem sele-
+  '             cionada aleatoriamente através de "Random(7)"
+  '             em ImageListBlocos
+  ' 
+  '=============================================================
+
+
+
+
+InserirNaMatriz(Indice As Integer, Posicao As Integer, Tipo_Do_Bloco As Integer)
+  '=========================================================================
+  '  Esta Função insere as posições do bloco com "Indice" e "TipoBloco"
+  'selecionados na matriz "Jogo" (válido quando da inserção dos blocos
+  'em "pctJogo"), levando-se em conta a "Posicao" de cada bloco no conjunto.
+  '=========================================================================
+
+
+
+
+LocalizarBlocoNaMatriz(Indice_do_Bloco As Integer) As Posicao
+'=========================================================================
+'  Esta Função localiza a posição (X,Y) de um bloco na matriz, através da
+'indicação de seu índice ("Indice_do_Bloco")
+'=========================================================================
+
+
+
+
+Function MoverBloco(Direcao As Integer, I1 As Integer, I2 As Integer, _
+ I3 As Integer, I4 As Integer)
+'=========================================================================
+'  Esta Função move os blocos de índices "I1", "I2", "I3" e "I4" para:
+'       - Baixo ("Direcao = 40")
+'       - Esquerda ("Direcao = 37")
+'       - Direita ("Direcao = 39")
+'=========================================================================
+
+
+
+
+ProxIndexBloco(ContainerDoBloco As String) As Integer
+  '=======================================================================
+  '  Esta Função indica qual é o próximo índice (que se referenciará a um
+  'bloco durante o jogo) a ser utilizado
+  '  A variável "ContainerDoBloco" indica qual é o container de onde os blocos
+  'deverão ser selecionados ("pctJogo" ou "pctProx"), uma vez que os
+  'blocos destes seguem numerações diferentes.
+
+  '  Quando o container for "pctJogo":
+  '  A função utiliza os dados da variável "BlocoEmJogo", que armazena
+  '"True" para blocos que estão em uso no Jogo (inseridos no container
+  '"pctJogo") e "False" para blocos que não estão em uso. Através da
+  'indicação da variável, a função busca o próximo bloco disponível
+  'para utilização a partir do índice "0", selecionando como bloco
+  'disponível aquele que tem como dado armazenado "False"
+
+  '  Quando o container for "pctProx":
+  '  Verificar-se-á a posição dos blocos de "pctProx" e aquele que ainda
+  'estiver em sua posição incial "Top = 0" e "Left = 0" será utilizado
+  '=======================================================================
+
+
+
+
+Random(Base_de_Calculo As Integer, TipoDeAleatoriedade As Integer)
+  '=======================================================================
+  '  Esta Função, com base nos segundos do relógio interno do computador,
+  ' seleciona uma das três possibilidades de cálculo de aleatoriedade e
+  ' realiza a seleção de um número aleatório
+  '=======================================================================
+    
+
+
+
+ReordenarJogo(Linha_da_Matriz As Integer)
+'=========================================================================
+'  Esta Função reordena os blocos e os valores a estes relacionados na
+'matriz "Jogo" através de "Linha_da_Matriz", que indica a linha que deverá
+'ser excluída (e os blocos acima desta movidos para esta posição)
+'=========================================================================
+
+
+
+
+TrocarIdioma(Idioma As String)
+  '============================================================
+  ' Esta função troca o idioma dos menus e labels dos formulá-
+  'rios que compõem o Jogo
+  '============================================================
+
+
+
+Uncheck(Menu As String)
+  '=============================================================
+  ' Esta função retira os "Checks" existentes na área do menu
+  'que contém os Estilos dos Blocos, os Idiomas ou os Níveis do
+  'Jogo (segundo seleção do usuário indicada através da variável
+  '"Menu"
+  '=============================================================
+
+
+
+
+VerificarLinhasCompletas() As Integer
+'=========================================================================
+'  Esta Função verifica cada linha na matriz, observando se todas as
+'posições de coluna (eixo X) estão com valores diferentes de "999", o que
+'indica uma linha completa, e retorna o número desta linha
+' Obs.: inicia-se a vericação a partir da última linha; retorna-se "999"
+'caso nenhuma linha esteja completa
+'=========================================================================
+
+
+
